@@ -1,0 +1,28 @@
+.home {
+    min-height: 60vh;
+    background: url(https://webunwto.s3.eu-west-1.amazonaws.com/2021-05/shopping-tourism.jpg?VersionId=37wNDx4jtjMFsnEycUJKf.EFupeDO4C.) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .content {
+    color: white;
+    text-align: center;
+}
+
+.home .content h3 {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 5.5rem;
+}
+
+.home .content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    line-height: 2;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
